@@ -11,7 +11,7 @@ intellij 에서는 편집만 되고 실행은 해볼수가 없으므로 vi 환�
 * plugin 설치는 vim-plug(https://github.com/junegunn/vim-plug) 를 이용해서 설치하면 된다.
 
 ### 설치 방법 ###
-#### (1) vim-plug 설치 ####
+**(1) vim-plug 설치**
 ~/.vim/autoload 디렉토리(없으면 만들고) 에서 
 ```bash
 [ec2-user@localhost autoload] $ wget https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -21,7 +21,7 @@ intellij 에서는 편집만 되고 실행은 해볼수가 없으므로 vi 환�
 plug.vim
 [ec2-user@localhost autoload]$ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
-#### (2) ~/.vimrc 파일을 열어 (없으면 만들기) 다음과 같이 설정 ####
+**(2) ~/.vimrc 파일을 열어 (없으면 만들기) 다음과 같이 설정**
 ```bash
 " Minimal Configuration
 set nocompatible
@@ -72,7 +72,7 @@ let g:terraform_completion_keys = 1
 let g:terraform_registry_module_completion = 0
 ```
 
-#### (3) vi를 실행하고 명령 모드에서 :PlugInstall 을 실행하면 .vimrc 에 설정한 plugin들이 자동으로 설치된다. ####
+**(3) vi를 실행하고 명령 모드에서 :PlugInstall 을 실행하면 .vimrc 에 설정한 plugin들이 자동으로 설치된다.**
 ![image2018-8-14_13-12-41](https://user-images.githubusercontent.com/47875462/53388025-f7804100-39cc-11e9-8f27-8940ae216237.png)
 
 ### 사용방법 ###
